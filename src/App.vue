@@ -4,12 +4,12 @@
 <template>
   <div class="relative w-full flex min-h-screen flex-col bg-background">
     <div class="flex min-h-screen flex-col">
-      <header class="sticky top-0 z-50 w-full border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <header class="fixed top-0 z-50 w-full border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div class="container flex h-14 max-w-screen-2xl items-center">
           <div class="flex gap-6 md:gap-10">
-            <a class="hidden items-center space-x-2 md:flex" href="/">
+            <a class="hidden items-center space-x-2 md:flex mt-8" href="/">
               <span class="hidden font-bold sm:inline-block">
-                <img src="./assets/logo4.png" alt="Logo" width="160px">
+                <img src="./assets/logo4.png" alt="Logo" width="140px">
               </span>
             </a>
             <nav class="hidden gap-6 md:flex">
@@ -21,7 +21,7 @@
         </div>
       </header>
       <main class="flex-1">
-        <section class="relative py-20 overflow-hidden bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+        <section class="relative py-20 overflow-hidden">
           <div class="absolute inset-0 overflow-hidden pointer-events-none">
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] opacity-30">
               <div class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 to-purple-400 blur-3xl animate-blob"></div>
@@ -30,10 +30,10 @@
             </div>
           </div>
           <div class="relative container mx-auto px-4 text-center">
-            <span class="inline-block px-4 py-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 text-sm font-medium mb-8" style="opacity: 1; will-change: auto; transform: none;">Help you complete document editing in minutes</span>
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-8" style="opacity: 1; will-change: auto; transform: none;">
+            <span class="inline-block px-4 py-2 rounded-full bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 text-sm font-medium mb-8" style="opacity: 1; will-change: auto; transform: none; background: rgba(35,40,77,.05); backdrop-filter: blur(30px); box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;">Help you complete document editing in minutes</span>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-8" style="opacity: 1; will-change: auto; transform: none; line-height: 80px;">
               Launch Document Editing<br>
-              <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400">Only Minutes</span>
+              <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400" style="background: radial-gradient(95% 55.37% at 95% 28.12%,#8d55ed 0,#4752e6 100%); background-clip: text; color: transparent">Only Minutes</span>
             </h1>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8" style="opacity: 1; will-change: auto; transform: none;">
               <a class="cursor-pointer">
@@ -41,16 +41,16 @@
               </a>
             </div>
           <div class="max-w-5xl mx-auto">
-            <div class="relative rounded-2xl overflow-hidden" style="opacity: 1; will-change: auto; transform: none;">
+            <div class="relative rounded-2xl overflow-hidden" style="opacity: 1; will-change: auto; transform: none; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
         
               <div class="relative bg-white dark:bg-gray-900 aspect-video">
-                <div class="absolute left-3.5 top-3">
+                <div class="absolute left-3 top-2">
                   <div class="flex gap-2">
                     <div class="w-3 h-3 rounded-full bg-red-500"></div>
                     <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
                     <div class="w-3 h-3 rounded-full bg-green-500"></div></div>
                 </div>
-                <img src="./assets/index.png" class="w-full " />
+                <img src="./assets/index2.png" class="w-full " />
                   
                 </div>
               </div>
